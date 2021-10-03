@@ -15,3 +15,6 @@ SO THAT I can plan a trip accordingly
 
 ## Launch Application
 ![screenshot-weather-dash](https://user-images.githubusercontent.com/87583026/135769509-8b9ee517-decb-45a8-bd26-b4034b5c1c14.jpg)
+
+# Deployment of Application
+<li>https://sunita002.github.io/weather-dashboard/</li>
