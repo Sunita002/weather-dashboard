@@ -4,3 +4,21 @@ var cityNameEl = document.querySelector('#city-name');
 var cityArr = [];
 var apiKey = 'e4ab7318fab329c7de8c4fd9dd5056d7'; // please enter API Key here
 
+var formHandler = function(event) {
+    // formats city name
+    var selectedCity = cityInput
+        .value
+        .trim()
+        .toLowerCase()
+        .split(' ')
+        .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+        .join(' ');
+
+    if (selectedCity) {
+        getCoords(selectedCity);
+        cityInput.value = '';
+    } else {
+        alert('Please enter a city!');
+    };
+};
+
