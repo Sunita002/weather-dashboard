@@ -14,3 +14,4 @@ SO THAT I can plan a trip accordingly
 <li>Most recent search results are saved</li>
 
 ## Launch Application
+![screenshot-weather-dash](https://user-images.githubusercontent.com/87583026/135769509-8b9ee517-decb-45a8-bd26-b4034b5c1c14.jpg)
