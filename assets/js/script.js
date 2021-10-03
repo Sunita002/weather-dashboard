@@ -108,4 +108,20 @@ var currentForecast = function(forecast) {
     var currentUvi = forecast.current['uvi'];
     uviEl.textContent = currentUvi;
 
-    
+    // styles UV index
+    switch (true) {
+        case (currentUvi <= 2):
+            uviEl.className = 'badge badge-success';
+            break;
+        case (currentUvi <= 5):
+            uviEl.className = 'badge badge-warning';
+            break;
+        case (currentUvi <=7):
+            uviEl.className = 'badge badge-danger';
+            break;
+        default:
+            uviEl.className = 'badge text-light';
+            uviEl.setAttribute('style', 'background-color: #553C7B');
+    }
+}
+
